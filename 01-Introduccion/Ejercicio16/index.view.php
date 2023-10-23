@@ -8,6 +8,10 @@
 </head>
 
 <body>
+    <?php
+    operacion($num1, $num2);
+
+    ?>
 </body>
 
 </html>

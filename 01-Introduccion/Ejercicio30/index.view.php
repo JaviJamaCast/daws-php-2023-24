@@ -7,7 +7,10 @@
     <title>Document</title>
 </head>
 
-    <body>
-    </body>
+<body>
+    <?php
+    mostrarNotas($estudiantes);
+    ?>
+</body>
 
 </html>

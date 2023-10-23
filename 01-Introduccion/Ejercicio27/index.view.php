@@ -8,6 +8,11 @@
 </head>
 
 <body>
+    <?php
+
+    mostrarGrupos($grupos);
+
+    ?>
 </body>
 
 </html>

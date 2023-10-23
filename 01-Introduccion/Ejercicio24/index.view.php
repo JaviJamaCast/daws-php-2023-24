@@ -7,7 +7,20 @@
     <title>Document</title>
 </head>
 
-    <body>
-    </body>
+<body>
+    <table border="1">
+
+        <tr>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Teléfono</th>
+            <th>Correo Electrónico</th>
+        </tr>
+        <?php
+        datosTabla($agenda);
+        ?>
+
+    </table>
+</body>
 
 </html>

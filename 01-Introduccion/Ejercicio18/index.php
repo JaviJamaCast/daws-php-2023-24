@@ -2,7 +2,7 @@
 
 $diaDeLaSemana = $_GET["dia"];
 
-seleccionDia($diaDeLaSemana);
+
 function seleccionDia($dia)
 {
     switch ($dia) {

@@ -29,15 +29,20 @@ $agenda = [
     ]
 ];
 
-echo "<table border='1'>";
-echo "<tr><th>Nombre</th><th>Apellidos</th><th>Teléfono</th><th>Correo Electrónico</th></tr>";
-foreach ($agenda as $contacto) {
-    echo "<tr>";
-    foreach ($contacto as $dato) {
-        echo "<td>$dato</td>";
+
+
+function datosTabla($agenda)
+{
+    foreach ($agenda as $contacto) {
+        echo "<tr>";
+        foreach ($contacto as $dato) {
+            echo "<td>$dato</td>";
+        }
+        echo "</tr>";
     }
-    echo "</tr>";
 }
-echo "</table>";
+
+
+
 
 require "index.view.php";

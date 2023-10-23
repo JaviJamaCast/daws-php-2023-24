@@ -8,6 +8,9 @@
 </head>
 
 <body>
+    <?php
+    esPar($numero);
+    ?>
 </body>
 
 </html>

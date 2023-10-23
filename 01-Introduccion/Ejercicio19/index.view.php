@@ -8,6 +8,12 @@
 </head>
 
 <body>
+    <?php
+
+    mostrarN($numero);
+
+    ?>
+
 </body>
 
 </html>

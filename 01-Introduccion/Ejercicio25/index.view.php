@@ -8,6 +8,11 @@
 </head>
 
 <body>
+    <?php
+
+    mostrarConWhile($estudiantes);
+
+    ?>
 </body>
 
 </html>

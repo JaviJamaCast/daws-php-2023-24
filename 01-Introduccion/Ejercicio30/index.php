@@ -10,8 +10,13 @@ $estudiantes = array(
 
 );
 
-foreach ($estudiantes as $key => $value) {
-    echo "La nota media de {$key} es {$value} </br>";
+
+
+function mostrarNotas($estudiantes)
+{
+    foreach ($estudiantes as $key => $value) {
+        echo "La nota media de {$key} es: {$value} </br>";
+    }
 }
 
 require "index.view.php";

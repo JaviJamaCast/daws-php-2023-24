@@ -8,6 +8,9 @@
 </head>
 
 <body>
+    <?php
+    mostrarConForEach($coches);
+    ?>
 </body>
 
 </html>

@@ -15,7 +15,7 @@ $usuarios = [
 $usuario = $_GET["usuario"];
 $contrasenya = $_GET["contraseña"];
 
-comprobarDatos($usuario, $contrasenya, $usuarios);
+
 
 function comprobarDatos($usuario, $contrasenya, $diccionario)
 {

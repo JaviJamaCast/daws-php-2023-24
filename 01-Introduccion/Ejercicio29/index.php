@@ -30,17 +30,18 @@ $agenda = [
     ]
 ];
 
-echo "<table border='1'>";
-echo "<tr><th>Nombre</th><th>Apellidos</th><th>Teléfono</th><th>Correo Electrónico</th></tr>";
-
-for ($i = 0; $i < count($agenda); $i++) {
-    echo "<tr>";
-    echo "<td>" . $agenda[$i]["nombre"] . "</td>";
-    echo "<td>" . $agenda[$i]["apellidos"] . "</td>";
-    echo "<td>" . $agenda[$i]["telefono"] . "</td>";
-    echo "<td>" . $agenda[$i]["email"] . "</td>";
-    echo "</tr>";
+function datosTablas($agenda)
+{
+    for ($i = 0; $i < count($agenda); $i++) {
+        echo "<tr>";
+        echo "<td>" . $agenda[$i]["nombre"] . "</td>";
+        echo "<td>" . $agenda[$i]["apellidos"] . "</td>";
+        echo "<td>" . $agenda[$i]["telefono"] . "</td>";
+        echo "<td>" . $agenda[$i]["email"] . "</td>";
+        echo "</tr>";
+    }
 }
-echo "</table>";
+
+
 
 require "index.view.php";

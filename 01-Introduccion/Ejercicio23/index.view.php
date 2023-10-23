@@ -8,6 +8,14 @@
 </head>
 
 <body>
+
+    <?php
+
+
+    mostrarEstudiantes($estudiantes);
+
+    ?>
+
 </body>
 
 </html>

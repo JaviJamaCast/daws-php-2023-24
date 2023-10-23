@@ -7,7 +7,19 @@
     <title>Document</title>
 </head>
 
-    <body>
-    </body>
+<body>
+    <table border="1">
+
+        <tr>
+            <th>Nombre</th>
+            <th>Nota 1</th>
+            <th>Nota 2</th>
+            <th>Nota media</th>
+        </tr>
+        <?php
+        calcularMediaNotas($estudiantes);
+        ?>
+    </table>
+</body>
 
 </html>

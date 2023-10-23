@@ -8,6 +8,11 @@
 </head>
 
 <body>
+    <?php
+    foreach ($palabras as $espanol => $ingles) {
+        echo "La palabra $espanol se traduce al inglés como $ingles.<br>";
+    }
+    ?>
 </body>
 
 </html>

@@ -1,6 +1,6 @@
 <?php
 $nombre = $_GET["usuario"];
-$email = $_GET["dato"];
+$datoS = $_GET["dato"];
 
 $diccionario = array(
     "JaviJama" => array(
@@ -14,7 +14,7 @@ $diccionario = array(
         "Email" => "laura@gmail.com"
     )
 );
-getDatos($diccionario, $nombre, $email);
+
 function getDatos($diccionario, $nombreUsu, $dato)
 {
     echo $diccionario[$nombreUsu][$dato];

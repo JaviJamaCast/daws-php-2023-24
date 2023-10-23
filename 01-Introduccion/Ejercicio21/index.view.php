@@ -8,6 +8,11 @@
 </head>
 
 <body>
+    <?php
+
+    numAntes($numero);
+
+    ?>
 </body>
 
 </html>

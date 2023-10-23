@@ -8,6 +8,9 @@
 </head>
 
 <body>
+    <?php
+    mensaje($cadena1);
+    ?>
 </body>
 
 </html>

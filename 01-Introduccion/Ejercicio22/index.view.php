@@ -8,6 +8,11 @@
 </head>
 
 <body>
+    <?php
+
+    encontrarPosicion($pais, $paises);
+
+    ?>
 </body>
 
 </html>

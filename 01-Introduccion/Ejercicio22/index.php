@@ -2,7 +2,7 @@
 $paises = ["Brasil", "Portugal", "Islandia", "Mexico", "Filipinas", "Marruecos"];
 
 $pais = $_GET["pais"];
-encontrarPosicion($pais, $paises);
+
 function encontrarPosicion($pais, $paises)
 {
     $pos = -1;

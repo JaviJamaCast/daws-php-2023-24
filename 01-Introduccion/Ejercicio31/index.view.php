@@ -7,7 +7,14 @@
     <title>Document</title>
 </head>
 
-    <body>
-    </body>
+<body>
+    <?php
+
+    echo "El array generado es: " . $cadena . "<br>";
+    echo "El valor mas alto es: $numMayor <br>";
+    echo "El valor mas bajo es: $numMenor";
+
+    ?>
+</body>
 
 </html>

@@ -14,6 +14,5 @@ function setValor($array, $posicion, $valor)
     return $array;
 }
 
-echo getValor($ciudades, $posicion);
-echo var_export(setValor($ciudades, $posicion, $valor));
+
 require "index.view.php";

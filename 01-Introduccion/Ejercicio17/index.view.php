@@ -8,6 +8,9 @@
 </head>
 
 <body>
+    <?php
+    comprobarDatos($usuario, $contrasenya, $usuarios);
+    ?>
 </body>
 
 </html>

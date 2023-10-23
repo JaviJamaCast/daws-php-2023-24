@@ -8,6 +8,11 @@
 </head>
 
 <body>
+    <?php
+
+    mostrarConIdConDoWhile($coches);
+
+    ?>
 </body>
 
 </html>

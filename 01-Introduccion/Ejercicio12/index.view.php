@@ -8,6 +8,10 @@
 </head>
 
 <body>
+    <?php
+    echo getValor($ciudades, $posicion) ."<br>"; 
+    echo var_export(setValor($ciudades, $posicion, $valor));
+    ?>
 </body>
 
 </html>

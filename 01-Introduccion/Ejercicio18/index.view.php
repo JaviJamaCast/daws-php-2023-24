@@ -8,6 +8,11 @@
 </head>
 
 <body>
+    <?php
+
+    seleccionDia($diaDeLaSemana);
+
+    ?>
 </body>
 
 </html>
